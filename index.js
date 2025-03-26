@@ -1,4 +1,4 @@
-import { MongoClient } from 'mongodb';
+const { MongoClient } = require('mongodb');
 
 async function main() {
     // Replace with your MongoDB URL if different
@@ -16,7 +16,7 @@ async function main() {
         console.log("Document inserted!");
 
         // Query the document
-        const result = await collection.findOne({ name: "Aimi" });
+        const result = await collection.findOne({ name: "Nana" });
         console.log("Query result:", result);
     } catch (err) {
         console.error("Error:", err);
