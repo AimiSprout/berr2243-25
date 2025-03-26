@@ -2,7 +2,7 @@ const { MongoClient } = require('mongodb');
 
 async function main() {
     // Replace with your MongoDB URL if different
-    const url = "mongodb://localhost:27018";
+    const url = "mongodb://localhost:27017";
     const client = new MongoClient(url);
 
     try {
