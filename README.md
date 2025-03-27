@@ -99,6 +99,7 @@ project-root/
 ├── index.js           
 ├── package.json      
 └── node_modules/ 
+```
 
 ## Lisence 
 This project is for educational purposes only
