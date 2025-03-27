@@ -8,14 +8,14 @@ Objective fot this exercise was to set up the core development tools, to learn b
 ## Installations Steps
 
 ### 1. Install Development Tools
-- **Vscode** = Download the Vscode that appropriate with operating system by visiting [Vscode] (https://code.visualstudio.com/)
-- **NodeJS and npm** = Download the LTS version from [Node.js] (https://nodejs.org/en)
+- **Vscode** = Download the Vscode that appropriate with operating system by visiting https://code.visualstudio.com/ 
+- **NodeJS and npm** = Download the LTS version from https://nodejs.org/en 
     - Verify intallation:
     ```sh
     node -v
     npm -v
     ```
-- **MongoDB** = Follow the official intallation guide from [MongoDB Community Server installation guide] (https://www.mongodb.com/docs/manual/administration/install-community/) that appropriate with operating system 
+- **MongoDB** = Follow the official intallation guide from https://www.mongodb.com/docs/manual/administration/install-community/ that appropriate with operating system 
     - Start MongoDB service
     ```sh
     mongod --dbpath /path/to/data/directory
@@ -26,7 +26,7 @@ Objective fot this exercise was to set up the core development tools, to learn b
     git config --global user.name "Your Name"
     git config --global user.email "your@email.com"
     ```
-- **MongoDB Compass (Optional)** = Download from [MongoDB Compass] (https://www.mongodb.com/products/tools/compass)
+- **MongoDB Compass (Optional)** = Download from https://www.mongodb.com/products/tools/compass
 
 
 ### 2. Project Setup 
@@ -87,9 +87,9 @@ Objective fot this exercise was to set up the core development tools, to learn b
     ```
 
 ## Troubleshooting
-    - **MongoDB Connection Issues** Ensure the MongoDB service is running.
-    - **Node.js Module Errors** Confirm that npm install was executed to install dependencies
-    - **Git Repository Synchronization Problems** Verify the remote repository URL is correct 
+- **MongoDB Connection Issues** Ensure the MongoDB service is running.
+- **Node.js Module Errors** Confirm that npm install was executed to install dependencies
+- **Git Repository Synchronization Problems** Verify the remote repository URL is correct 
 
 ## Project Structure
 ```
