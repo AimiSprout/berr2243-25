@@ -97,8 +97,8 @@ project-root/
 ├── .gitignore         
 ├── README.md          
 ├── index.js           
-├── package.json      
-└── node_modules/ 
+├── package-lock.json      
+└── package.json/ 
 ```
 
 ## Lisence 
